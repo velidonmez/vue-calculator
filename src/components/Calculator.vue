@@ -41,7 +41,7 @@ export default {
       this.current =
         this.current.charAt(0) === "-"
           ? this.current.slice(1)
-          : `- ${this.current}`;
+          : `-${this.current}`;
     },
     percent: function() {
       this.current = `${parseFloat(this.current) / 100}`;
